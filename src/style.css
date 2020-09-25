@@ -1,0 +1,281 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #121214;
+    color: #e1e1e6;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+#container{
+    max-width: 980px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 300px;
+    text-align: center;
+    margin: 0 50px;
+}
+
+header p{
+    margin: 32px 0;
+    line-height: 24px;
+    color: #e1e1e6;
+}
+
+
+button{
+    color: #e1e1e6;
+    background: #965eff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    justify-content: center;
+    margin: 20px 0;
+    border: none;
+}
+
+button:hover{
+    text-decoration: none;
+    background-color: #1aad75;
+    transition: all 0.5s ease;
+}
+
+input{
+    color: #965eff;
+    background: none;
+    outline: none;
+    
+    font-size: 1.2rem;
+    border: 1px solid #e1e1e6;
+    border-radius: 8px;
+    padding: 0.4rem;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 300px;
+    text-align: center;
+    margin: 0 50px;
+}
+
+.album{
+    border: 2px solid #e1e1e6;
+    margin: 32px 0;
+    border-radius: 8px;
+    width: 300px;
+    min-height: 100px;
+    padding-top: 10px;
+}
+
+.album:hover {
+    border: 2px solid #1aad75;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.album h2, a{
+    color: #e1e1e6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.album:hover h2 {
+    color: #1aad75;
+}
+
+.imgCover {
+    width: 280px;
+    max-height: 280px;
+    margin-top: 10px;
+}
+
+
+.deleteButton {
+        background: none!important;
+        border: none;
+        font-family: arial, sans-serif;
+        color: #d18b8b;
+        cursor: pointer;
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+}
+
+.deleteButton:hover {
+    text-decoration: underline;
+}
+
+#safetyDelete {
+    border: 1px solid #e1e1e6;
+    border-radius: 8px;
+    background: #121214;
+    width: 300px;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#safetyDelete button {
+    margin: 0 5px;
+}
+
+#safetyDelete .buttonVoltar {
+    background: #121214;
+    border: 1px solid #965eff;
+}
+
+/* ************************************ALBUM************************************ */
+
+
+#albumContainer header {
+    min-height: 10vh;
+    min-width: 50vw;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#albumContainer h3 {
+    margin: 20px 0;
+}
+
+
+#albumContainer input[type="file"] {
+    display: none;
+}
+
+#albumContainer label {
+    background-color: #121214;
+    color: #e1e1e6;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.2rem;
+    cursor: pointer;
+    margin: 20px 0;
+    border: 2px solid #965eff;
+    transition: all 0.5s ease;
+    white-space: nowrap;
+}
+
+#inputTextFile {
+    margin: 8px;
+    overflow-wrap: break-word;
+}
+
+#albumContainer label:hover{
+    background: #1aad75;
+}
+
+#albumContainer section button {
+    width: 60px;
+    margin: 10px;
+    padding: 0.2rem;
+    height: 35px;
+}
+
+#albumContainer .buttonVoltar {
+    color: #965eff;
+    background-color: #121214;
+    border: 2px solid #965eff;
+    border-radius: 32px;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    width: 64px;
+    height: 64px;
+}
+
+#albumContainer .buttonVoltar:hover{
+    background: #1aad75;
+    color: #e1e1e6;
+    border: 2px solid #e1e1e6;
+}
+
+div#photoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 28px;
+}
+
+div.photoCard {
+    width: 300px;
+    min-height: 200px;
+    border: 3px solid #e1e1e6;
+    margin: 28px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div.photoCard:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+    border: 2px solid #1aad75;
+}
+
+.photoCardImg {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.photoCard img {
+    max-width: 280px;
+    border-radius: 8px;
+    max-height: 250px;
+}
+
+.deleteCard {
+    display: flex;
+    justify-content: center;
+}
+
+.deleteCard button {
+    border: 1px solid #e1e1e6;
+    background-color: #121214;
+    color: #d18b8b;
+    font-size: 12px;
+}
+
+.deleteCard button:hover {
+    background-color: #d18b8b;
+    color: #e1e1e6;
+}
+
+.loadingDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.loadingAnimation {
+    border: 8px solid rgba(0, 0, 0, .1);
+    border-left-color: #965eff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { 
+        transform: rotate(360deg);
+    }
+}
+
