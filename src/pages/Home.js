@@ -16,7 +16,7 @@ function Home() {
 
     //GET ALBUMS
     function getAlbums() {
-        fetch('https://api.imgur.com/3/account/le0piovesan/albums/', {
+        fetch('https://api.imgur.com/3/account/leo0808api/albums/', {
             method: 'GET',
             headers: {
                 'Authorization': process.env.REACT_APP_AUTHORIZATION_BEARER,
