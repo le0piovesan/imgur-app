@@ -1,5 +1,4 @@
-# Imgur App for Linx
-
+# Imgur App
 
 ### Project Setup:
 ```
