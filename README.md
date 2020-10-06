@@ -1,5 +1,5 @@
 # Imgur App for Linx
-## Esse aplicativo foi desenvolvido para uma entrevista de Desenvolvedor Júnior.
+
 
 ### Project Setup:
 ```
