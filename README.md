@@ -1,5 +1,4 @@
 # Imgur App for Linx
-Hosteando em [https://linx-imgur-app.netlify.app/](https://linx-imgur-app.netlify.app/).
 ## Esse aplicativo foi desenvolvido para uma entrevista de Desenvolvedor Júnior.
 
 ### Project Setup:
